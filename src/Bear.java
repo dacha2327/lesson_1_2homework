@@ -17,12 +17,7 @@ public class Bear {
     public String getInfo(){
         return "\nHeight: "+ height+
                 "\nWeight: "+ theWeight +
-                "\nBear life on: "+BeerLive.SCANDINAVIA;
+                "\nBear life in: " + BearLive.CENTRAL_ASIA;
     }
 }
-enum BeerLive {SCANDINAVIA, CENTRAL_ASIA,FINLAND }
-class TianShanBrownBear extends BrownBear{
-    public TianShanBrownBear(int height, int theWeight, String eating, String climbing) {
-        super(height, theWeight, eating, climbing);
-    }
-}
+

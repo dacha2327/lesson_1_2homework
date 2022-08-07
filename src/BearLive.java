@@ -1,0 +1,2 @@
+public enum BearLive {SCANDINAVIA, CENTRAL_ASIA,FINLAND }
+
